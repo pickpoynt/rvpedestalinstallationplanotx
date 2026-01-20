@@ -91,36 +91,36 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap gap-x-8 gap-y-2">
             <a
-              href="https://freezeproofoutdoorfaucetreplacementoh.netlify.app/"
+              href="https://emergencyslableakdetectionnapervill.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Outdoor Faucet Replacement Columbus
+              Emergency Slab Leak Detection Naperville
             </a>
             <a
-              href="https://galvanized-pipe-replacement-akron.lovable.app/"
+              href="https://tanklesswaterheaterdescalingbellevu.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Galvanized Pipe Replacement Akron
+              Tankless Water Heater Descaling Bellevue
             </a>
             <a
-              href="https://wellpumpreplacementoverlandparkks.netlify.app/"
+              href="https://balconydrainleakdetectionservicesau.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Well Pump Replacement Overland Park
+              Balcony Drain Leak Detection Austin
             </a>
             <a
-              href="https://knobandtubewiringreplacementsavannah.netlify.app/"
+              href="https://potfillerfaucetinstallationroundroc.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Knob and Tube Wiring Replacement Savannah
+              Pot Filler Faucet Installation Round Rock
             </a>
           </div>
         </div>
