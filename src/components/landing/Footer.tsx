@@ -9,18 +9,18 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-lg bg-copper flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-lg">AKE</span>
+                <span className="text-primary-foreground font-heading font-bold text-lg">MGS</span>
               </div>
               <div>
                 <h3 className="font-heading font-bold text-lg text-primary-foreground leading-tight">
-                  Asheville Kiln Electric
+                  Marietta GenSwitch
                 </h3>
-                <p className="text-xs text-primary-foreground/60">Professional Studio Wiring</p>
+                <p className="text-xs text-primary-foreground/60">Generator Installation Experts</p>
               </div>
             </div>
             <p className="text-primary-foreground/70 mb-6 max-w-md">
-              The trusted electricians for Asheville potters. We specialize in
-              high-amperage kiln hookups, ventilation, and studio safety upgrades.
+              Cobb County's trusted electricians for generator interlock kits.
+              We ensure your home is power-ready for any storm or outage.
             </p>
             <div className="flex gap-4">
               <a
@@ -39,22 +39,22 @@ const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Kiln Hookups
+                  Interlock Installation
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Ventilation Wiring
+                  Inlet Box Wiring
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Panel Upgrades
+                  Generator Consultation
                 </a>
               </li>
               <li>
                 <a href="#services" className="text-primary-foreground/70 hover:text-copper-light transition-colors">
-                  Studio Lighting
+                  Breaker Panel Upgrade
                 </a>
               </li>
             </ul>
@@ -66,7 +66,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-primary-foreground/70">
                 <MapPin className="w-4 h-4 mt-1 text-copper-light" />
-                <span>Asheville & Buncombe County</span>
+                <span>Marietta & Cobb County, GA</span>
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Phone className="w-4 h-4 text-copper-light" />
@@ -76,8 +76,8 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-2 text-primary-foreground/70">
                 <Mail className="w-4 h-4 text-copper-light" />
-                <a href="mailto:info@asheville-kiln-electric.com" className="hover:text-copper-light transition-colors">
-                  info@asheville-kiln-electric.com
+                <a href="mailto:info@marietta-genswitch.com" className="hover:text-copper-light transition-colors">
+                  info@marietta-genswitch.com
                 </a>
               </li>
             </ul>
@@ -91,31 +91,31 @@ const Footer = () => {
           </h4>
           <div className="flex flex-wrap gap-x-8 gap-y-2">
             <a
-              href="https://freezeproofoutdoorfaucetreplacementoh.netlify.app/"
+              href="https://sumppumpbatterybackupinstallationma.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Outdoor Faucet Replacement Columbus
+              Sump Pump Battery Backup Installation Malden
             </a>
             <a
-              href="https://galvanized-pipe-replacement-akron.lovable.app/"
+              href="https://toiletflangerepairtallahassee.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Galvanized Pipe Replacement Akron
+              Toilet Flange Repair Tallahassee
             </a>
             <a
-              href="https://wellpumpreplacementoverlandparkks.netlify.app/"
+              href="https://trenchlesspiperelininghuntsville.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
             >
-              Well Pump Replacement Overland Park
+              Trenchless Pipe Relining Huntsville
             </a>
             <a
-              href="https://knobandtubewiringreplacementsavannah.netlify.app/"
+              href="https://knobandtubewiringreplacementsavanna.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary-foreground/50 hover:text-copper-light transition-colors text-sm"
@@ -127,7 +127,7 @@ const Footer = () => {
 
         <div className="border-t border-primary-foreground/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} Asheville Kiln Electric. All rights reserved.
+            © {new Date().getFullYear()} Marietta GenSwitch. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <a href="#" className="text-primary-foreground/50 hover:text-copper-light transition-colors">

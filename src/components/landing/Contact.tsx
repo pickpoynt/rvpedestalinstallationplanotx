@@ -11,12 +11,12 @@ const Contact = () => {
               Get In Touch
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Power Up Your Studio
-              <span className="text-gradient-copper block">Schedule Your Wiring Quote</span>
+              Get Your Free Quote
+              <span className="text-gradient-copper block">Secure Key Dates Now</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Ready to plug in and start firing? Contact Asheville's kiln electrical
-              specialists. We'll assess your panel and get you hooked up safely.
+              Storm season is coming. Contact Marietta's interlock specialists today
+              to schedule your installation and ensure your home stays powered.
             </p>
 
             <div className="space-y-6">
@@ -34,7 +34,7 @@ const Contact = () => {
               </a>
 
               <a
-                href="mailto:info@asheville-kiln-electric.com"
+                href="mailto:info@marietta-genswitch.com"
                 className="flex items-center gap-4 p-4 rounded-xl bg-card border border-border hover:border-copper/30 hover:shadow-md transition-all duration-300 group"
               >
                 <div className="w-14 h-14 rounded-xl bg-gradient-hero flex items-center justify-center group-hover:scale-110 transition-transform">
@@ -42,7 +42,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Email Us</span>
-                  <span className="font-heading font-bold text-foreground">info@asheville-kiln-electric.com</span>
+                  <span className="font-heading font-bold text-foreground">info@marietta-genswitch.com</span>
                 </div>
               </a>
 
@@ -52,7 +52,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Service Area</span>
-                  <span className="font-heading font-semibold text-foreground">Asheville, Weaverville, Black Mountain & Buncombe County</span>
+                  <span className="font-heading font-semibold text-foreground">Marietta, Kennesaw, Smyrna & Cobb County</span>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <span className="text-sm text-muted-foreground block">Business Hours</span>
-                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 8:00 AM - 5:00 PM | Weekend Studio Calls</span>
+                  <span className="font-heading font-semibold text-foreground">Mon-Fri: 8:00 AM - 6:00 PM | Same-Day Consults</span>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Contact = () => {
           {/* Contact Form */}
           <div className="bg-card rounded-2xl p-8 shadow-lg border border-border">
             <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-              Request a Quote
+              Request Your Interlock Kit
             </h3>
             <form className="space-y-6">
               <div className="grid sm:grid-cols-2 gap-4">
@@ -83,7 +83,7 @@ const Contact = () => {
                     type="text"
                     id="firstName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Jane"
+                    placeholder="John"
                   />
                 </div>
                 <div>
@@ -94,7 +94,7 @@ const Contact = () => {
                     type="text"
                     id="lastName"
                     className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                    placeholder="Potter"
+                    placeholder="Smith"
                   />
                 </div>
               </div>
@@ -119,19 +119,19 @@ const Contact = () => {
                   type="email"
                   id="email"
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all"
-                  placeholder="studio@example.com"
+                  placeholder="john@example.com"
                 />
               </div>
 
               <div>
                 <label htmlFor="message" className="text-sm font-medium text-foreground block mb-2">
-                  Tell Us About Your Kiln
+                  What Generator Do You Have?
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="w-full px-4 py-3 rounded-lg border border-border bg-background focus:outline-none focus:ring-2 focus:ring-copper/50 focus:border-copper transition-all resize-none"
-                  placeholder="I have a Skutt KM-1027 that needs a 60 amp breaker..."
+                  placeholder="I have a Westinghouse WGen9500..."
                 />
               </div>
 

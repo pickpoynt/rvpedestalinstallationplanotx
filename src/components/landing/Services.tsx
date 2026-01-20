@@ -1,24 +1,24 @@
-import { Zap, Plug, Fan, CheckCircle, ArrowRight } from "lucide-react";
+import { Lock, PlugZap, CircuitBoard, CheckCircle, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const services = [
   {
-    icon: Zap,
-    title: "Kiln Circuit Installation",
-    description: "Dedicated 50A or 60A high-voltage circuits installed directly from your panel to your studio space, sized correctly for your specific kiln model.",
-    features: ["Heavy-gauge wiring", "Dedicated breakers", "Code compliant"],
+    icon: Lock,
+    title: "Interlock Kit Install",
+    description: "We install custom-fit metal interlock plates on your breaker panel that mechanically prevent the main utility and generator breakers from being on simultaneously.",
+    features: ["Safe switching", "Code required", "Panel specific"],
   },
   {
-    icon: Plug,
-    title: "Outlet & Hardwiring",
-    description: "Installation of NEMA 6-50, 14-50, or 6-20 receptacles, or direct hardwiring for industrial kilns to prevent overheating and ensure steady power.",
-    features: ["Industrial grade plugs", "Secure connections", "Voltage testing"],
+    icon: PlugZap,
+    title: "Inlet Box Wiring",
+    description: "Installation of a 30A or 50A exterior power inlet box, allowing you to plug your portable generator in safely outside while powering your panel inside.",
+    features: ["Weatherproof box", "Heavy gauge wire", "L14-30 / 14-50R"],
   },
   {
-    icon: Fan,
-    title: "Ventilation Systems",
-    description: "Wiring and installation for downdraft vents or overhead hoods to safely remove fumes, heat, and carbon monoxide from your workspace.",
-    features: ["Auto-switch controls", "Safe fume removal", "Heat management"],
+    icon: CircuitBoard,
+    title: "load Management",
+    description: "We label your panel and educate you on how to manage your electrical load, ensuring you can run essentials without overloading your generator.",
+    features: ["Panel labeling", "Usage training", "Amperage check"],
   },
 ];
 
@@ -28,14 +28,15 @@ const Services = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block px-4 py-2 bg-copper/10 rounded-full text-copper text-sm font-semibold mb-4">
-            Studio Safety First
+            Smart Power Solutions
           </span>
           <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-4">
-            Asheville's Kiln Electricians
+            Marietta's Generator Pros
           </h2>
           <p className="text-muted-foreground text-lg">
-            Firing ceramics requires serious power. We provide the expert electrical
-            infrastructure you need to run your kiln safely and efficiently at home or in the studio.
+            Forget running dangerous extension cords through windows. We provide a
+            permanent, professional connection for your portable generator that puts
+            you in control during the next storm.
           </p>
         </div>
 

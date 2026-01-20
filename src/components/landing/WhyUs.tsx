@@ -1,35 +1,35 @@
-import { ShieldCheck, Flame, Zap, FileCheck, BrainCircuit, HeartHandshake } from "lucide-react";
+import { ShieldCheck, CircleDollarSign, Zap, FileCode, ThumbsUp, Timer } from "lucide-react";
 
 const reasons = [
   {
     icon: ShieldCheck,
-    title: "Safety Certified",
-    description: "We are licensed NC electricians specializing in high-load circuits. We ensure your home's panel can handle the draw without fire risks.",
+    title: "100% Safe",
+    description: "Interlocks physically prevent dangerous back-feeding of electricity onto utility lines, protecting line workers and your home from fires.",
   },
   {
-    icon: Flame,
-    title: "Pottery Knowledge",
-    description: "We understand the unique demands of firing schedules. We wire for peak load sustainability, avoiding tripped breakers during critical ramps.",
+    icon: CircleDollarSign,
+    title: "Cost Effective",
+    description: "An interlock kit costs a fraction of a whole-house transfer switch or standby generator installation, delivering similar functionality.",
   },
   {
     icon: Zap,
-    title: "Voltage Drop Prevention",
-    description: "We calculate precisely for voltage drop, using appropriate wire gauges to ensure your kiln reaches top temperature (Cone 6-10) reliably.",
+    title: "Power Everything",
+    description: "Unlike transfer switches with limited circuits, an interlock lets you choose ANY circuit in your panel to power, up to your generator's limit.",
   },
   {
-    icon: FileCheck,
-    title: "Permit Handling",
-    description: "We handle all Asheville and Buncombe County electrical permits and inspections, so you can focus on creating art.",
+    icon: FileCode,
+    title: "Code Compliant",
+    description: "Our installations meet all National Electrical Code (NEC) requirements and are accepted by local Marietta and Cobb County inspectors.",
   },
   {
-    icon: BrainCircuit,
-    title: "Smart Controller Setup",
-    description: "Need help connecting your Bartlett or touchscreen controller? We assist with the initial electrical setup and testing.",
+    icon: ThumbsUp,
+    title: "Easy Operation",
+    description: "We provide clear labeling and a simple tutorial, making the switch from utility to generator power a stress-free process.",
   },
   {
-    icon: HeartHandshake,
-    title: "Artist Focused",
-    description: "We love Asheville's art scene. We offer transparent pricing and flexible scheduling for home studios and maker spaces.",
+    icon: Timer,
+    title: "Fast Install",
+    description: "Most installations are completed in under 4 hours, meaning we can get you prepared for the next storm often in a single visit.",
   },
 ];
 
@@ -43,29 +43,29 @@ const WhyUs = () => {
               Why Choose Us?
             </span>
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground mb-6">
-              Asheville's Choice for
-              <span className="text-gradient-copper block">Reliable Studio Power</span>
+              Marietta's Choice for
+              <span className="text-gradient-copper block">Reliable Backup Power</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8">
-              Don't risk your home or your ware with amateur wiring. We provide the
-              peace of mind that comes with professional, code-compliant kiln installation
-              tailored to your specific equipment tailored to your specific equipment.
+              Don't get left in the dark. We are Marietta's specialists in portable
+              generator connections, providing a safe, legal, and affordable way
+              to keep your lights on when the grid goes down.
             </p>
 
             <div className="flex items-center gap-8">
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">500+</span>
-                <span className="text-sm text-muted-foreground">Kilns Connected</span>
+                <span className="text-4xl font-heading font-bold text-copper block">1k+</span>
+                <span className="text-sm text-muted-foreground">Kits Installed</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
                 <span className="text-4xl font-heading font-bold text-copper block">100%</span>
-                <span className="text-sm text-muted-foreground">Code Compliant</span>
+                <span className="text-sm text-muted-foreground">Code Safe</span>
               </div>
               <div className="w-px h-16 bg-border" />
               <div className="text-center">
-                <span className="text-4xl font-heading font-bold text-copper block">15yr</span>
-                <span className="text-sm text-muted-foreground">Avg. Lifespan</span>
+                <span className="text-4xl font-heading font-bold text-copper block">5★</span>
+                <span className="text-sm text-muted-foreground">Local Rating</span>
               </div>
             </div>
           </div>

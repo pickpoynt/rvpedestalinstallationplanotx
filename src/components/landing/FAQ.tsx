@@ -7,28 +7,28 @@ import {
 
 const faqs = [
   {
-    question: "Do I need a permit for my kiln?",
-    answer: "In most cases in Buncombe County, yes. Adding a new dedicated circuit for a kiln is considered new electrical work that requires a permit and inspection, which we handle for you."
+    question: "Is an interlock kit legal in Cobb County?",
+    answer: "Yes, generator interlock kits are fully code-compliant (NEC Article 702) and accepted by Cobb County inspectors as a safe way to connect portable generators."
   },
   {
-    question: "What outlet does my kiln need?",
-    answer: "It depends on the kiln. Most single-phase kilns use a NEMA 6-50 or 14-50 outlet (like a dryer or range), but we always check the manufacturer plate to match the exact amperage requirements."
+    question: "Does it work with any generator?",
+    answer: "It works with any portable generator that has a 30-amp or 50-amp output rating (L14-30 or 14-50 outlet). We install the matching inlet box on your house."
   },
   {
-    question: "Can I run my kiln on an extension cord?",
-    answer: "Absolutely NOT. Kilns draw high continuous amperage that will melt standard extension cords, creating a severe fire hazard. You must have a direct wall connection."
+    question: "Can I run my AC unit?",
+    answer: "Usually, yes! A minimal 7500-watt generator can often run a central AC unit if you manage other loads. We can install a 'Soft Start' to help smaller generators start AC units."
   },
   {
-    question: "How much does it cost to install a kiln outlet?",
-    answer: "Cost varies based on distance from your main panel and wire gauge needed. A run close to the panel is cheaper than one requiring conduit across a basement or garage."
+    question: "Do I have to move my breaker panel?",
+    answer: "No. The kit installs directly onto your existing panel cover. It’s a mechanical slide that forces you to turn off the Main breaker before turning on the Generator breaker."
   },
   {
-    question: "Do kilns need ventilation?",
-    answer: "Yes. Firing clay and glazes releases fumes (sulfur, carbon monoxide, heavy metals) that must be vented outside. We can wire your EnviroVent or overhead hood system into the circuit."
+    question: "How long does installation take?",
+    answer: "A standard installation in Marietta takes about 3-4 hours. We test everything with you before we leave to ensure you're comfortable using it."
   },
   {
-    question: "Can I put a kiln in my garage?",
-    answer: "Yes, garages are popular spots. We just need to ensure the electrical panel has room for the new breaker and that we use outdoor-rated conduit if the wiring is exposed."
+    question: "Why is this better than a transfer switch?",
+    answer: "A manual transfer switch only lets you power 6-10 specific circuits. An interlock energizes your ENTIRE panel, giving you the flexibility to turn on any breaker you need."
   }
 ];
 
@@ -38,11 +38,11 @@ const FAQ = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-navy mb-4">
-            Kiln Electrical FAQ – Asheville, NC
+            Generator Interlock FAQ – Marietta, GA
           </h2>
           <p className="text-steel text-lg max-w-2xl mx-auto">
-            Answers to common questions about powering your pottery studio safely.
-            We follow the National Electrical Code (NEC) for all continuous load installations.
+            Common questions about connecting portable power safely.
+            We make backup power simple and affordable for Marietta homeowners.
           </p>
         </div>
 
